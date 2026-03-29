@@ -1,0 +1,25 @@
+.header--burger--icon{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.burgerStrip{
+    width: 35px;
+    height: 5px;
+    background-color: #40A3F8;
+    transition: all 0.3s ease;
+}
+.us1{
+    transform: rotate(45deg);
+    margin-top: 12px;
+}
+.us2{
+    transform: rotate(-45deg);
+    margin-top: -12px;
+}
+.us3{
+    opacity: 0%;
+}
+.us4{
+    opacity: 100%;
+}
